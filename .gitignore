@@ -1,3 +1,11 @@
+# Zipped files and irrelevant data
+/data/im.db.zip
+/data/rt.reviews.tsv.gz
+/data/bom.movie_gross.csv.gz
+/data/rt.movie_info.tsv.gz
+/data/tmdb.movies.csv.gz
+*.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
