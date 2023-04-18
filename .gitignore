@@ -4,7 +4,7 @@
 /data/bom.movie_gross.csv.gz
 /data/rt.movie_info.tsv.gz
 /data/tmdb.movies.csv.gz
-*.db
+/data/*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
