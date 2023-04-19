@@ -2,6 +2,22 @@
 
 **Author**: Andre Layton
 
+NOTES FOR IMPROVEMENT:
+
+-Measure ROI by Budget!
+
+-Measure Budget by Genre
+
+-NEED A THIRD ANGLE/MEASURE FOR THIRD REC.
+
+-Reorganize Markdowns and Coding to look smoother/follow workflow better
+
+-Remove plot you don't need (think of this as if you're presenting to execs, why would they care about that?)
+
+-Give 3 concrete and actionable recommendations (i.e, what genre do I recommend, what budget will they need for that genre vs. other genres for success, need a third rec!)
+
+-SLIDE DECK (UPDATE) & INCLUDE SOME PLOTS IN MARKDOWN
+
 ## Overview
 
 Microsoft has decided to create a new movie studio and requires more insight into which types of films are best to begin creating. This project uses descriptive statistical analysis on data gathered from both the Internet Movie Database (IMDb) and The Numbers websites to gain insight into which genres produced the best returns on investment (ROI), both domestically and globally. Two seperate datasets were used for this analysis to gain insight into which genres of movies yielded the best median ROI on both levels, as well as which genres are most prevalent. The results of the top 3 genres show that Comedy and Drama movies generate high ROIs and are popular in number. My recommendation for which type of film to produce would be Comedy or Drama. 
