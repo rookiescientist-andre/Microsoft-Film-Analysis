@@ -2,30 +2,14 @@
 
 **Author**: Andre Layton
 
-NOTES FOR IMPROVEMENT:
-
--Measure ROI by Budget!
-
--Measure Budget by Genre
-
--NEED A THIRD ANGLE/MEASURE FOR THIRD REC.
-
--Reorganize Markdowns and Coding to look smoother/follow workflow better
-
--Remove plot you don't need (think of this as if you're presenting to execs, why would they care about that?)
-
--Give 3 concrete and actionable recommendations (i.e, what genre do I recommend, what budget will they need for that genre vs. other genres for success, need a third rec!)
-
--SLIDE DECK (UPDATE) & INCLUDE SOME PLOTS IN MARKDOWN
 
 ## Overview
 
-Microsoft has decided to create a new movie studio and requires more insight into which types of films are best to begin creating. This project uses descriptive statistical analysis on data gathered from both the Internet Movie Database (IMDb) and The Numbers websites to gain insight into which genres produced the best returns on investment (ROI), both domestically and globally. Two seperate datasets were used for this analysis to gain insight into which genres of movies yielded the best median ROI on both levels, as well as which genres are most prevalent. The results of the top 3 genres show that Comedy and Drama movies generate high ROIs and are popular in number. My recommendation for which type of film to produce would be Comedy or Drama. 
-
+  Microsoft is creating a new movie studio division in an effort to compete with other big companies, like Apple and Amazon, that have been successfully putting out diverse media content. This project aims to analyze movie data from various sources and recommend the best type of film to create for the studio's initial content. The main focus behind the analysis is seeing which films are best to begin creating by calculating and comparing both the Domestic and Worldwide returns on investment (ROI), both measured in percentages. During the course of the analysis, the comparison shifted from ROIs to average ROIs from the datasets due to outliers. The results showed that while a majority of the movies from Box Office Mojo's movie budget dataset fell under Action, Comedy, Drama, or Adventure genres, which are the four most frequent genres in order, War and Mystery movies yielded the highest average ROI, both domestically and worldwide. However, those genres were lacking enough records to draw conclusions from, shown through the high error bars in both visuals for each genre; as such, if we focus on the genres with low error margins (like the top four mentioned earlier), our results recommend Adventure as the best genre to begin with for both domestic and global success and profit. Adventure films, on average, require a $75 million budget, but I am suggesting $100 million, at minimum, upwards to approximately $170 million, for both domestic and foreign success. 
+  
 ## Business Problem
 
-Microsoft has created a movie studio; however, the executives are stuck on what type of content to begin creating and investing in. In order to compete with companies like Apple and Amazon, who have been dominating the space thus far, I am looking at the film genres that provide the highest return on investment (ROI), both domestically and globally, in order to recommend the best genres for Microsoft to begin creating. The significance in selecting a genre with a high ROI lies in the impact it could have on future films - if the genre we recommend produces a high ROI for Microsoft, it encourages further film production and assures the executives that Microsoft can compete in this space/industry.
-
+Microsoft has created a movie studio; however, the executives are stuck on what type of content to begin creating and investing in. In order to compete with companies who have been dominating the space thus far, I am looking at the film genres that provide the highest return on investment (ROI), both domestically and globally, in order to recommend the best type of film for Microsoft to begin creating. The significance in selecting a genre with a high ROI lies in the impact it could have on future films - if the genre we recommend produces a high ROI for Microsoft, it encourages investors and invites conversations for further film production. It also assures the executives that Microsoft can compete in this space/industry.
 
 ***
 
@@ -38,9 +22,9 @@ After cleaning the information on each table such as column names and missing da
 
 ## Results
 
-According to the first plot depicting the Genre Counts, Drama, Action, and Comedy make up the majority of records in our dataset, and the top movies based on budget. Two of the plots - Median Domestic ROI and Median Worldwide ROI - clearly show that Comedy and Drama are the best films to begin creating among the top three mentioned earlier, with Drama appearing in the top three in all categories measured in this analysis. 
+The first three plots depict the median and average Domestic ROI as well as the median Worldwide ROI by genre. Two of the plots - Median Domestic ROI and Median Worldwide ROI - clearly show that Adventure films are the best type to begin creating among the top four mentioned earlier, with Comedy coming in second, despite having the higher average Domestic ROI, as measured in this analysis. 
 
-There is a 4th graph in this analysis - a scatter plot of each record plotted by genre - which is included to fully depict the thought process and workflow process behind this project.
+The next few visuals - the boxplot and multiple regression plots - exhibit how production budgets vary among the top four genres, and the bar chart shows that the Adventure films in the dataset required $75 million for production, on average. However, I am suggesting a production budget between $100-170 million, based on gross sale estimates, both domestically and worldwide, in order to cover investment costs and even generate potential profit. 
 
 To improve confidence in the results next time I would:
 
@@ -54,11 +38,11 @@ Include the movie ratings and refine to include multiple genre characterizations
 
 This analysis leads to three recommendations regarding types of movies that are best to begin creating:
 
-Focus on the genres with low margins of error. While Musical and War movies have the highest returns on investment (ROIs), they are both in the bottom five in value counts, as well. As such, their margins of error are high - meaning that type of success may not be as consistent, or proven, as the plot shows. The genres with low error margins provide a better picture and potentially have more confidence in their results - primarily the top 7 with over 200 records.
+1. START WITH ADVENTURE FILMS. Adventure films generated the highest median domestic and worldwide returns on investment, among the top four genres. We focused our analysis to those four genres due to outliers skewing the results (e.g., low budget films that found major success), and a lack of records for the other genres to confidently include them in the analysis. As such, Adventure films were the best choice to begin with, and is estimated to produce the highest median returns, as well as an average domestic ROI of approximately 130% - suggesting the film will make enough to cover production costs and even generate profit. 
 
-Stick with the top 3 genres. Horror movies would not be a bad place to start; however, with the top 3 genres - and the majority of our data - being Drama, Action, and Comedy movies, I would focus my energy and resources on those genres that are popular in number and high in ROI, domestically and globally.
+2. A MINIUMUM BUDGET OF $100 MILLION. According to the average budget model above, prepare to spend a minimum of $75-80 million on this film. Despite the median budget being $55 million for Adventure films, according to the boxplot above, the visuals that follow suggest the higher budget range will generate enough revenue, domestically, to break even on production costs, or more than double the investment, worldwide. However, the budget minimum I am suggesting is $100 million - where the 75th percentile of films lie, as shown in the boxplot above. This is estimated to gross well over the initial investment, and generate profit, both domestically and globally.
 
-Start with a Comedy or Drama, depending on your goals. Comedy movies are shown to not only be popular in number, but also also produce high ROIs, and would be a great place to start. However, if the goal is to also get nominated for accolades and compete for awards, Dramas are generally the best route to go. Dramas, fortunately, fall in the top 3 in both ROIs, assuming we focus on the low error margins. In either route, I would also recommend casting high-profile actors/actresses to further promote the film and promote a high return on investment.
+3. A MAXIMUM BUDGET OF $170 MILLION. I am suggesting a maximum budget of approximately $170 million for the Adventure film. According to the models above, in order to break $200 million in domestic gross, an estimated budget of about $170 million will be required. That same estimated budget will far exceed the $400 million mark, globally, and thus lead to commercial success. 
 
 ***
 
