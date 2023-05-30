@@ -57,7 +57,7 @@ Below is a list of the contents of this repository.
 ```
 ├── FILM_ANALYSIS_README.md             
 ├── Microsoft Film Analysis - Notebook.ipynb
-├── Film Analysis.pdf         
+├── Microsoft Film Analysis.pdf         
 ├── .gitignore                               
 └── images                           
 ```
