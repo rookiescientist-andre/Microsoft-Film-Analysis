@@ -1,6 +1,7 @@
 # Microsoft Film Analysis
 
 **Author**: Andre Layton
+
 GitHub: @therookiescientist-andre
 
 ## Overview
@@ -41,15 +42,15 @@ This analysis leads to three recommendations regarding types of movies that are 
 
 1. START WITH ADVENTURE-COMEDY FILMS. Adventure films generate the highest median worldwide return on investment, among the top four genres. We focused our analysis to those four genres due to a lack of records for the other genres, and their susceptibility to outliers (e.g., low budget films that found major success), to confidently include them in the analysis. As such, Adventure films were the best choice to begin with, and is estimated to produce both the highest median and average worldwide returns - suggesting the film will make enough to cover production costs and even generate profit. I would further suggest merging genres with Comedy for the screenplay, which will allow us to draw from different demographics and markets to gain success/following from. Therefore, an Adventure-Comedy film.
 
-<img src=".../images/average_worldwide_roi.png" title="Average Worldwide ROI by Genres">
+<img src="images/average_worldwide_roi.png" title="Average Worldwide ROI by Genres">
 
 2. BUDGET SUGGESTIONS. According to the average budget and Worldwide ROI visuals above, prepare to spend a minimum of $70 million on this film in order to double the return on investment. However, I am suggesting a budget plan between $100-140 million, in order to make, approximately, three times the budget at the minimum and a ceiling projected at quadruple the investment. 
 
-![Production Budget by Genre](.../images/budget_boxplot.png)
+![Production Budget by Genre](images/budget_boxplot.png)
 
 3. RUNTIME SUGGESTIONS. I am suggesting a minimum runtime of approximately 95 minutes for the Adventure film. However, if we follow my earlier suggestion regarding merging genres, an Adventure-Comedy film would require a runtime between 95-110 minutes. 
 
-![Runtime by Genre](.../images/runtime_boxplot.png)
+![Runtime by Genre](images/runtime_boxplot.png)
 
 ***
 
