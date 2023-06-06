@@ -2,6 +2,10 @@
 
 **Author**: Andre Layton
 
+-INCLUDE VISUALS
+-EDIT MARKDOWNS
+-READ NOTES
+
 
 ## Overview
 
